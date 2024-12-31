@@ -1,0 +1,5 @@
+rootfs/var/cache/samba/msg.lock/*
+rootfs/var/cache/samba/*.tdb
+rootfs/var/lib/samba/private/msg.sock/*
+rootfs/run/samba/smbd.pid
+rootfs/var/log/*
