@@ -1,0 +1,33 @@
+architecture: x86_64
+creation_date: 1735563660
+expiry_date: 1738155660
+properties:
+  architecture: x86_64
+  description: Alpinelinux 3.21 x86_64 (20241230_13:00)
+  name: alpinelinux-3.21-x86_64-default-20241230_13:00
+  os: alpinelinux
+  release: "3.21"
+  serial: "20241230_13:00"
+  variant: default
+templates:
+  /etc/hostname:
+    when:
+    - create
+    - copy
+    create_only: false
+    template: hostname.tpl
+    properties: {}
+  /etc/hosts:
+    when:
+    - create
+    - copy
+    create_only: false
+    template: hosts.tpl
+    properties: {}
+  /etc/inittab:
+    when:
+    - create
+    - copy
+    create_only: false
+    template: inittab.tpl
+    properties: {}

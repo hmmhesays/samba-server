@@ -1,0 +1,110 @@
+container:
+  architecture: x86_64
+  config:
+    image.architecture: amd64
+    image.description: Alpine 3.21 amd64 (20241230_13:00)
+    image.os: Alpine
+    image.release: "3.21"
+    image.requirements.secureboot: "false"
+    image.serial: "20241230_13:00"
+    image.type: squashfs
+    image.variant: default
+    volatile.base_image: 5e39e9564b2f98f98a1e61e8072159b161cc669e7e49e84abe0e987e8a9832b6
+    volatile.cloud-init.instance-id: 51626acc-910f-49d1-b94a-a8031a78e25c
+    volatile.eth0.host_name: veth2351fa4e
+    volatile.eth0.hwaddr: 00:16:3e:b6:53:06
+    volatile.idmap.base: "0"
+    volatile.idmap.current: '[{"Isuid":true,"Isgid":false,"Hostid":1000000,"Nsid":0,"Maprange":1000000000},{"Isuid":false,"Isgid":true,"Hostid":1000000,"Nsid":0,"Maprange":1000000000}]'
+    volatile.idmap.next: '[{"Isuid":true,"Isgid":false,"Hostid":1000000,"Nsid":0,"Maprange":1000000000},{"Isuid":false,"Isgid":true,"Hostid":1000000,"Nsid":0,"Maprange":1000000000}]'
+    volatile.last_state.idmap: '[]'
+    volatile.last_state.power: RUNNING
+    volatile.last_state.ready: "false"
+    volatile.uuid: 37ec85fa-0a28-4667-8a14-7a6582dae73c
+    volatile.uuid.generation: 37ec85fa-0a28-4667-8a14-7a6582dae73c
+  devices:
+    port-80:
+      connect: tcp:127.0.0.1:445
+      listen: tcp:0.0.0.0:445
+      type: proxy
+  ephemeral: false
+  profiles:
+  - default
+  stateful: false
+  description: ""
+  created_at: 2024-12-30T18:09:42.370758859Z
+  expanded_config:
+    image.architecture: amd64
+    image.description: Alpine 3.21 amd64 (20241230_13:00)
+    image.os: Alpine
+    image.release: "3.21"
+    image.requirements.secureboot: "false"
+    image.serial: "20241230_13:00"
+    image.type: squashfs
+    image.variant: default
+    volatile.base_image: 5e39e9564b2f98f98a1e61e8072159b161cc669e7e49e84abe0e987e8a9832b6
+    volatile.cloud-init.instance-id: 51626acc-910f-49d1-b94a-a8031a78e25c
+    volatile.eth0.host_name: veth2351fa4e
+    volatile.eth0.hwaddr: 00:16:3e:b6:53:06
+    volatile.idmap.base: "0"
+    volatile.idmap.current: '[{"Isuid":true,"Isgid":false,"Hostid":1000000,"Nsid":0,"Maprange":1000000000},{"Isuid":false,"Isgid":true,"Hostid":1000000,"Nsid":0,"Maprange":1000000000}]'
+    volatile.idmap.next: '[{"Isuid":true,"Isgid":false,"Hostid":1000000,"Nsid":0,"Maprange":1000000000},{"Isuid":false,"Isgid":true,"Hostid":1000000,"Nsid":0,"Maprange":1000000000}]'
+    volatile.last_state.idmap: '[]'
+    volatile.last_state.power: RUNNING
+    volatile.last_state.ready: "false"
+    volatile.uuid: 37ec85fa-0a28-4667-8a14-7a6582dae73c
+    volatile.uuid.generation: 37ec85fa-0a28-4667-8a14-7a6582dae73c
+  expanded_devices:
+    eth0:
+      name: eth0
+      network: incusbr0
+      type: nic
+    port-80:
+      connect: tcp:127.0.0.1:445
+      listen: tcp:0.0.0.0:445
+      type: proxy
+    root:
+      path: /
+      pool: default
+      type: disk
+  name: samba-server
+  status: Running
+  status_code: 103
+  last_used_at: 2024-12-30T18:12:00.601932046Z
+  location: none
+  type: container
+  project: default
+pool:
+  config:
+    source: /var/lib/incus/storage-pools/default
+  description: ""
+  name: default
+  driver: dir
+  used_by: []
+  status: Created
+  locations:
+  - none
+profiles:
+- config: {}
+  description: Default Incus profile
+  devices:
+    eth0:
+      name: eth0
+      network: incusbr0
+      type: nic
+    root:
+      path: /
+      pool: default
+      type: disk
+  name: default
+  used_by: []
+  project: default
+volume:
+  config: {}
+  description: ""
+  name: samba-server
+  type: container
+  used_by: []
+  location: none
+  content_type: filesystem
+  project: default
+  created_at: 2024-12-30T18:09:42.370758859Z

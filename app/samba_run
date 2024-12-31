@@ -1,0 +1,18 @@
+#!/bin/bash
+DIR=$(dirname "$(realpath "$0")");
+mkdir -p $DIR/../rootfs/tmp/share;
+umount $DIR/../rootfs/tmp/share;
+mount --bind $1 $DIR/../rootfs/tmp/share;
+
+# Setup cleanup trap for script exit
+cleanup() {
+    echo "Stopping smbd and cleaning up..."
+    pkill smbd  # Kill any running smbd processes
+    sleep 1     # Give smbd a moment to shutdown
+    umount $DIR/../rootfs/tmp/share
+}
+trap cleanup EXIT SIGINT SIGTERM
+
+exec chroot $DIR/../rootfs /usr/sbin/smbd -F -i -d 3 &
+PID=$!
+wait $PID

@@ -1,0 +1,10 @@
+alpine-base
+alpine-baselayout
+alpine-keys
+alpine-release
+apk-tools
+busybox
+doas
+libc-utils
+logrotate
+samba

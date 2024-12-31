@@ -1,0 +1,4 @@
+Dec 30 21:54:13 samba-server syslog.info syslogd started: BusyBox v1.37.0
+Dec 30 21:54:13 samba-server daemon.info init: starting pid 262, tty '': '/sbin/openrc default'
+Dec 30 21:54:13 samba-server cron.info crond[282]: crond (busybox 1.37.0) started, log level 8
+Dec 30 21:54:14 samba-server daemon.info init: starting pid 411, tty '': '/sbin/getty 38400 console'

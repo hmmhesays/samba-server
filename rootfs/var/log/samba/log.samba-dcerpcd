@@ -1,0 +1,1512 @@
+[2024/12/30 22:55:48,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 22:55:49,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 22:55:56,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 22:58:05,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 22:59:17,  3, pid=63720, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 22:59:17,  3, pid=63720, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 22:59:17,  3, pid=63720, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = nobody
+[2024/12/30 22:59:17,  4, pid=63720, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 22:59:17,  7, pid=63720, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 22:59:17, 10, pid=63720, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 22:59:17, 10, pid=63720, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 9568375020552584114
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 22:59:17,  2, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 22:59:17,  5, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 22:59:17, 10, pid=63720, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 63720
+[2024/12/30 22:59:17,  0, pid=63721, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:02:18,  3, pid=64347, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:02:18,  3, pid=64347, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:02:18,  3, pid=64347, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = nobody
+[2024/12/30 23:02:18,  4, pid=64347, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:02:18,  7, pid=64347, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:02:18, 10, pid=64347, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:02:18, 10, pid=64347, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 3841184376415914025
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:02:18,  2, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:02:18,  5, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:02:18, 10, pid=64347, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 64347
+[2024/12/30 23:02:18,  0, pid=64348, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:05:36,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:05:37,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:08:22,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:08:23,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:08:45,  3, pid=65733, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:08:45,  3, pid=65733, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:08:45,  3, pid=65733, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = nobody
+[2024/12/30 23:08:45,  4, pid=65733, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:08:45,  7, pid=65733, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:08:45, 10, pid=65733, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:08:45, 10, pid=65733, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 11243710174425881925
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:08:45,  2, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:08:45,  5, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:08:45, 10, pid=65733, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 65733
+[2024/12/30 23:08:45,  0, pid=65734, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:10:37,  3, pid=66104, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:10:37,  3, pid=66104, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:10:37,  3, pid=66104, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:10:37,  4, pid=66104, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:10:37,  7, pid=66104, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:10:37, 10, pid=66104, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:10:37, 10, pid=66104, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 16022440672580895335
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:10:37,  2, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:10:37,  5, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:10:37, 10, pid=66104, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66104
+[2024/12/30 23:10:37,  0, pid=66105, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:10:48,  3, pid=66140, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:10:48,  3, pid=66140, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:10:48,  3, pid=66140, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:10:48,  4, pid=66140, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:10:48,  7, pid=66140, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:10:48, 10, pid=66140, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:10:48, 10, pid=66140, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 6426974761965449999
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:10:48,  2, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:10:48,  5, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:10:48, 10, pid=66140, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66140
+[2024/12/30 23:10:48,  0, pid=66141, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:13:52,  3, pid=66759, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:13:52,  3, pid=66759, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:13:52,  3, pid=66759, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:13:52,  4, pid=66759, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:13:52,  7, pid=66759, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:13:52, 10, pid=66759, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:13:52, 10, pid=66759, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 6871706329027029619
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:13:52,  2, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:13:52,  5, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:13:52, 10, pid=66759, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66759
+[2024/12/30 23:13:52,  0, pid=66760, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:14:30,  3, pid=66885, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:14:30,  3, pid=66885, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:14:30,  3, pid=66885, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:14:30,  4, pid=66885, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:14:30,  7, pid=66885, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:14:30, 10, pid=66885, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:14:30, 10, pid=66885, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 14206646142338155140
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:14:30,  2, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:14:30,  5, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:14:30, 10, pid=66885, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66885
+[2024/12/30 23:14:30,  0, pid=66886, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:14:41,  3, pid=66920, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:14:41,  3, pid=66920, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:14:41,  3, pid=66920, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:14:41,  4, pid=66920, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:14:41,  7, pid=66920, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:14:41, 10, pid=66920, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:14:41, 10, pid=66920, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 2070648344482894488
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:14:41,  2, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:14:41,  5, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:14:41, 10, pid=66920, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66920
+[2024/12/30 23:14:41,  0, pid=66921, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:14:45,  3, pid=66935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:14:45,  3, pid=66935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:14:45,  3, pid=66935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter guest account = root
+[2024/12/30 23:14:45,  4, pid=66935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:14:45,  7, pid=66935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:14:45, 10, pid=66935, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:14:45, 10, pid=66935, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 6821499711010647837
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:14:45,  2, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:14:45,  5, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:14:45, 10, pid=66935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 66935
+[2024/12/30 23:14:45,  0, pid=66936, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:17:31,  3, pid=67503, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:17:31,  3, pid=67503, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:17:31,  3, pid=67503, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:17:31,  4, pid=67503, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:17:31,  7, pid=67503, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:17:31, 10, pid=67503, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:17:31, 10, pid=67503, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 13128984249718071282
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:17:31,  2, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:17:31,  5, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:17:31, 10, pid=67503, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 67503
+[2024/12/30 23:17:31,  0, pid=67504, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:17:34,  3, pid=67512, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:17:34,  3, pid=67512, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:17:34,  3, pid=67512, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:17:34,  4, pid=67512, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:17:34,  7, pid=67512, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:17:34, 10, pid=67512, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:17:34, 10, pid=67512, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 2639551227482823183
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:17:34,  2, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:17:34,  5, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:17:34, 10, pid=67512, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 67512
+[2024/12/30 23:17:34,  0, pid=67513, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:19:08,  3, pid=67825, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:19:08,  3, pid=67825, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:08,  3, pid=67825, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:19:08,  4, pid=67825, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:19:08,  7, pid=67825, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:19:08, 10, pid=67825, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:19:08, 10, pid=67825, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 16632368969238048623
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:19:08,  2, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:19:08,  5, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:19:08, 10, pid=67825, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 67825
+[2024/12/30 23:19:08,  0, pid=67826, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:20:25,  3, pid=68088, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:20:25,  3, pid=68088, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:20:25,  3, pid=68088, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:20:25,  4, pid=68088, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:20:25,  7, pid=68088, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:20:25, 10, pid=68088, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:20:25, 10, pid=68088, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 9527583113006514572
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:20:25,  2, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:20:25,  5, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:20:25, 10, pid=68088, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 68088
+[2024/12/30 23:20:25,  0, pid=68089, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:21:19,  3, pid=68267, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:21:19,  3, pid=68267, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:21:19,  3, pid=68267, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:21:19,  4, pid=68267, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:21:19,  7, pid=68267, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:21:19, 10, pid=68267, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:21:19, 10, pid=68267, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 1954528108400521821
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:21:19,  2, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:21:19,  5, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:21:19, 10, pid=68267, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 68267
+[2024/12/30 23:21:19,  0, pid=68268, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:30:41,  3, pid=70131, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:30:41,  3, pid=70131, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:30:41,  3, pid=70131, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:30:41,  4, pid=70131, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:30:41,  7, pid=70131, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:30:41, 10, pid=70131, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:30:41, 10, pid=70131, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 13626090682600034459
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:30:41,  2, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:30:41,  5, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:30:41, 10, pid=70131, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 70131
+[2024/12/30 23:30:41,  0, pid=70132, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:33:13,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:33:13,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:33:13,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:33:13,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:33:13,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:24,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:24,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:24,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:24,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:24,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:24,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:24,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:25,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:25,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:25,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:25,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:25,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:27,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:27,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:27,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:27,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:27,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:28,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:28,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:28,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:36:32,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:36:32,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:36:32,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:36:32,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:36:32,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:37:52,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:37:52,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:37:52,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:37:52,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:37:52,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:44:01,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:44:01,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:44:01,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:44:01,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:44:01,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:44:42,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:44:42,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:44:42,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:44:42,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:44:42,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:44:57,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:44:57,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:44:57,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:44:57,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:44:57,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:45:54,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:45:54,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:45:54,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:45:54,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:45:54,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:49:04,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:49:04,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:49:04,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:49:04,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:49:04,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:49:05,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:49:05,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:49:05,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:49:05,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:49:05,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:14,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:22,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:50:28,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:53:07,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:53:07,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:53:07,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:53:07,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:53:07,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:53:07,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:53:07,  3] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:53:07,  2] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:53:07,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2

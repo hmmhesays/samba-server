@@ -1,0 +1,2232 @@
+[2024/12/30 23:19:40,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:19:40,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:19:40,  2, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:328(max_open_files)
+  rlimit_max: increasing rlimit_max (1024) to minimum Windows limit (16384)
+[2024/12/30 23:19:40,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:40,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:19:40,  4, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:19:40,  7, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:19:40,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:40.476663,  0, pid=67935, effective(0, 0), real(0, 0)] ../../source3/smbd/server.c:1746(main)
+  smbd version 4.20.6 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2024
+[2024/12/30 23:19:40.476691,  2, pid=67935, effective(0, 0), real(0, 0)] ../../source3/smbd/server.c:1750(main)
+  uid=0 gid=0 euid=0 egid=0
+[2024/12/30 23:19:40.476711,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Paths:
+     SBINDIR: /usr/sbin
+     BINDIR: /usr/bin
+     CONFIGFILE: /etc/samba/smb.conf
+     LOGFILEBASE: /var/log/samba
+     LMHOSTSFILE: /etc/samba/lmhosts
+     LIBDIR: /usr/lib
+     DATADIR: /usr/share
+     SAMBA_DATADIR: /usr/share/samba
+     MODULESDIR: /usr/lib/samba
+     SHLIBEXT: so
+     LOCKDIR: /var/cache/samba
+     STATEDIR: /var/lib/samba
+     CACHEDIR: /var/cache/samba
+     PIDDIR: /run/samba
+     SMB_PASSWD_FILE: /var/lib/samba/private/smbpasswd
+     PRIVATE_DIR: /var/lib/samba/private
+     BINDDNS_DIR: /var/lib/samba/bind-dns
+[2024/12/30 23:19:40.476753,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  System Headers:
+[2024/12/30 23:19:40.476758,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_ACL_H
+[2024/12/30 23:19:40.476768,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_AUXV_H
+[2024/12/30 23:19:40.476772,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_CAPABILITY_H
+[2024/12/30 23:19:40.476776,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_CDEFS_H
+[2024/12/30 23:19:40.476780,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_DIR_H
+[2024/12/30 23:19:40.476784,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_EPOLL_H
+[2024/12/30 23:19:40.476788,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_EVENTFD_H
+[2024/12/30 23:19:40.476792,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_FCNTL_H
+[2024/12/30 23:19:40.476796,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_FILE_H
+[2024/12/30 23:19:40.476800,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_INOTIFY_H
+[2024/12/30 23:19:40.476804,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_IOCTL_H
+[2024/12/30 23:19:40.476809,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_IPC_H
+[2024/12/30 23:19:40.476813,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_KERNEL_PROC_CORE_PATTERN
+[2024/12/30 23:19:40.476817,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_MMAN_H
+[2024/12/30 23:19:40.476821,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_MOUNT_H
+[2024/12/30 23:19:40.476825,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_PARAM_H
+[2024/12/30 23:19:40.476829,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_PRCTL_H
+[2024/12/30 23:19:40.476833,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_QUOTAS
+[2024/12/30 23:19:40.476837,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_QUOTA_H
+[2024/12/30 23:19:40.476841,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_RANDOM_H
+[2024/12/30 23:19:40.476845,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_RESOURCE_H
+[2024/12/30 23:19:40.476849,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SELECT_H
+[2024/12/30 23:19:40.476853,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SENDFILE_H
+[2024/12/30 23:19:40.476857,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SHM_H
+[2024/12/30 23:19:40.476861,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SOCKET_H
+[2024/12/30 23:19:40.476865,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_STATFS_H
+[2024/12/30 23:19:40.476869,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_STATVFS_H
+[2024/12/30 23:19:40.476873,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_STAT_H
+[2024/12/30 23:19:40.476877,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_STROPTS_H
+[2024/12/30 23:19:40.476881,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SYSCALL_H
+[2024/12/30 23:19:40.476885,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SYSLOG_H
+[2024/12/30 23:19:40.476892,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_SYSMACROS_H
+[2024/12/30 23:19:40.476896,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_TERMIOS_H
+[2024/12/30 23:19:40.476900,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_TIMEB_H
+[2024/12/30 23:19:40.476904,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_TIMES_H
+[2024/12/30 23:19:40.476908,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_TIME_H
+[2024/12/30 23:19:40.476912,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_TYPES_H
+[2024/12/30 23:19:40.476916,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_UCONTEXT_H
+[2024/12/30 23:19:40.476920,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_UIO_H
+[2024/12/30 23:19:40.476924,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_UN_H
+[2024/12/30 23:19:40.476928,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_UTSNAME_H
+[2024/12/30 23:19:40.476932,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_VFS_H
+[2024/12/30 23:19:40.476936,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_WAIT_H
+[2024/12/30 23:19:40.476940,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYS_XATTR_H
+[2024/12/30 23:19:40.476944,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Headers:
+[2024/12/30 23:19:40.476950,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ACL_LIBACL_H
+[2024/12/30 23:19:40.476954,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ALLOCA_H
+[2024/12/30 23:19:40.476958,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ARCHIVE_H
+[2024/12/30 23:19:40.476962,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ARPA_INET_H
+[2024/12/30 23:19:40.476966,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ARPA_NAMESER_H
+[2024/12/30 23:19:40.476970,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ASM_TYPES_H
+[2024/12/30 23:19:40.476974,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ASM_UNISTD_H
+[2024/12/30 23:19:40.476978,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ASSERT_H
+[2024/12/30 23:19:40.476982,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ATTR_ATTRIBUTES_H
+[2024/12/30 23:19:40.476986,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_AVAHI_CLIENT_CLIENT_H
+[2024/12/30 23:19:40.476990,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_AVAHI_COMMON_WATCH_H
+[2024/12/30 23:19:40.476994,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_COM_ERR_H
+[2024/12/30 23:19:40.476998,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CONFIG_H
+[2024/12/30 23:19:40.477002,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CRYPT_H
+[2024/12/30 23:19:40.477006,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CTYPE_H
+[2024/12/30 23:19:40.477010,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CUPS_CUPS_H
+[2024/12/30 23:19:40.477018,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CUPS_LANGUAGE_H
+[2024/12/30 23:19:40.477022,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CURSES_H
+[2024/12/30 23:19:40.477026,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DBUS_DBUS_H
+[2024/12/30 23:19:40.477030,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DIRENT_H
+[2024/12/30 23:19:40.477034,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DLFCN_H
+[2024/12/30 23:19:40.477038,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENDIAN_H
+[2024/12/30 23:19:40.477042,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ERRNO_H
+[2024/12/30 23:19:40.477046,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ERR_H
+[2024/12/30 23:19:40.477050,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FCNTL_H
+[2024/12/30 23:19:40.477054,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FLOAT_H
+[2024/12/30 23:19:40.477058,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FNMATCH_H
+[2024/12/30 23:19:40.477062,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FORM_H
+[2024/12/30 23:19:40.477066,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FTW_H
+[2024/12/30 23:19:40.477070,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETOPT_H
+[2024/12/30 23:19:40.477074,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GLIB_H
+[2024/12/30 23:19:40.477079,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GLOB_H
+[2024/12/30 23:19:40.477083,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GPFS_H
+[2024/12/30 23:19:40.477087,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GRP_H
+[2024/12/30 23:19:40.477091,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSAPI_GSSAPI_H
+[2024/12/30 23:19:40.477095,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSAPI_GSSAPI_KRB5_H
+[2024/12/30 23:19:40.477099,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSAPI_GSSAPI_SPNEGO_H
+[2024/12/30 23:19:40.477103,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ICONV_H
+[2024/12/30 23:19:40.477107,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IFADDRS_H
+[2024/12/30 23:19:40.477111,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INTTYPES_H
+[2024/12/30 23:19:40.477115,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_H
+[2024/12/30 23:19:40.477119,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_LOCATE_PLUGIN_H
+[2024/12/30 23:19:40.477123,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LANGINFO_H
+[2024/12/30 23:19:40.477127,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LASTLOG_H
+[2024/12/30 23:19:40.477131,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LBER_H
+[2024/12/30 23:19:40.477135,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_H
+[2024/12/30 23:19:40.477139,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBGEN_H
+[2024/12/30 23:19:40.477146,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBURING_COMPAT_H
+[2024/12/30 23:19:40.477150,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBURING_H
+[2024/12/30 23:19:40.477154,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIMITS_H
+[2024/12/30 23:19:40.477158,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_ETHTOOL_H
+[2024/12/30 23:19:40.477162,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_FALLOC_H
+[2024/12/30 23:19:40.477166,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_FCNTL_H
+[2024/12/30 23:19:40.477170,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_FS_H
+[2024/12/30 23:19:40.477174,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_IOCTL_H
+[2024/12/30 23:19:40.477178,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_OPENAT2_H
+[2024/12/30 23:19:40.477182,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_SOCKIOS_H
+[2024/12/30 23:19:40.477186,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_TYPES_H
+[2024/12/30 23:19:40.477190,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LOCALE_H
+[2024/12/30 23:19:40.477194,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MALLOC_H
+[2024/12/30 23:19:40.477198,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMORY_H
+[2024/12/30 23:19:40.477202,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MENU_H
+[2024/12/30 23:19:40.477206,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MNTENT_H
+[2024/12/30 23:19:40.477210,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NCURSES_H
+[2024/12/30 23:19:40.477214,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETDB_H
+[2024/12/30 23:19:40.477218,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETINET_IN_H
+[2024/12/30 23:19:40.477222,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETINET_IN_SYSTM_H
+[2024/12/30 23:19:40.477226,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETINET_IP_H
+[2024/12/30 23:19:40.477230,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETINET_TCP_H
+[2024/12/30 23:19:40.477234,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NET_IF_H
+[2024/12/30 23:19:40.477238,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NSS_H
+[2024/12/30 23:19:40.477242,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PANEL_H
+[2024/12/30 23:19:40.477246,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POLL_H
+[2024/12/30 23:19:40.477250,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POPT_H
+[2024/12/30 23:19:40.477254,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD_H
+[2024/12/30 23:19:40.477258,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTY_H
+[2024/12/30 23:19:40.477262,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PWD_H
+[2024/12/30 23:19:40.477269,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PYTHON_H
+[2024/12/30 23:19:40.477273,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_READLINE_HISTORY_H
+[2024/12/30 23:19:40.477277,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_READLINE_READLINE_H
+[2024/12/30 23:19:40.477281,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RESOLV_H
+[2024/12/30 23:19:40.477285,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RPC_NETTYPE_H
+[2024/12/30 23:19:40.477289,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RPC_RPC_H
+[2024/12/30 23:19:40.477293,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RPC_TYPES_H
+[2024/12/30 23:19:40.477297,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RPC_XDR_H
+[2024/12/30 23:19:40.477301,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SASL_SASL_H
+[2024/12/30 23:19:40.477305,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SCHED_H
+[2024/12/30 23:19:40.477309,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURITY_PAM_APPL_H
+[2024/12/30 23:19:40.477313,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURITY_PAM_EXT_H
+[2024/12/30 23:19:40.477317,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURITY_PAM_MODULES_H
+[2024/12/30 23:19:40.477321,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURITY__PAM_MACROS_H
+[2024/12/30 23:19:40.477326,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETJMP_H
+[2024/12/30 23:19:40.477330,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SHADOW_H
+[2024/12/30 23:19:40.477333,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIGNAL_H
+[2024/12/30 23:19:40.477337,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDARG_H
+[2024/12/30 23:19:40.477342,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDATOMIC_H
+[2024/12/30 23:19:40.477346,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDBOOL_H
+[2024/12/30 23:19:40.477350,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDDEF_H
+[2024/12/30 23:19:40.477354,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDINT_H
+[2024/12/30 23:19:40.477358,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDIO_H
+[2024/12/30 23:19:40.477361,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STDLIB_H
+[2024/12/30 23:19:40.477365,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRINGS_H
+[2024/12/30 23:19:40.477369,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRING_H
+[2024/12/30 23:19:40.477373,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STROPTS_H
+[2024/12/30 23:19:40.477377,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYSCALL_H
+[2024/12/30 23:19:40.477381,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYSLOG_H
+[2024/12/30 23:19:40.477385,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TERMCAP_H
+[2024/12/30 23:19:40.477389,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TERMIOS_H
+[2024/12/30 23:19:40.477397,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TERM_H
+[2024/12/30 23:19:40.477401,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TIME_H
+[2024/12/30 23:19:40.477405,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNICODE_USTRING_H
+[2024/12/30 23:19:40.477409,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNISTD_H
+[2024/12/30 23:19:40.477412,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTIME_H
+[2024/12/30 23:19:40.477416,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ZLIB_H
+[2024/12/30 23:19:40.477420,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  UTMP Options:
+[2024/12/30 23:19:40.477426,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTMPX_H
+[2024/12/30 23:19:40.477430,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTMP_H
+[2024/12/30 23:19:40.477434,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_EXIT
+[2024/12/30 23:19:40.477438,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_HOST
+[2024/12/30 23:19:40.477442,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_ID
+[2024/12/30 23:19:40.477459,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_NAME
+[2024/12/30 23:19:40.477464,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_PID
+[2024/12/30 23:19:40.477468,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_TIME
+[2024/12/30 23:19:40.477472,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_TV
+[2024/12/30 23:19:40.477476,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_TYPE
+[2024/12/30 23:19:40.477480,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UT_UT_USER
+[2024/12/30 23:19:40.477484,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     PUTUTLINE_RETURNS_UTMP
+[2024/12/30 23:19:40.477488,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_UTMP_UT_LINE
+[2024/12/30 23:19:40.477492,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_UTMP
+[2024/12/30 23:19:40.477496,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  HAVE_* Defines:
+[2024/12/30 23:19:40.477504,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_64_BIT_SIZE_T_FOR_LMDB
+[2024/12/30 23:19:40.477508,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ACL_GET_FILE
+[2024/12/30 23:19:40.477512,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ADDR_TYPE_IN_KRB5_ADDRESS
+[2024/12/30 23:19:40.477516,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ADS
+[2024/12/30 23:19:40.477520,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_AP_OPTS_USE_SUBKEY
+[2024/12/30 23:19:40.477524,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ARCHIVE_READ_FREE
+[2024/12/30 23:19:40.477528,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ARCHIVE_READ_SUPPORT_FILTER_ALL
+[2024/12/30 23:19:40.477532,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ASPRINTF
+[2024/12/30 23:19:40.477545,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ATEXIT
+[2024/12/30 23:19:40.477549,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ATOMIC_THREAD_FENCE
+[2024/12/30 23:19:40.477553,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ATOMIC_THREAD_FENCE_SUPPORT
+[2024/12/30 23:19:40.477557,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_AVAHI_CLIENT_NEW
+[2024/12/30 23:19:40.477561,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_AVAHI_STRERROR
+[2024/12/30 23:19:40.477565,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BASENAME
+[2024/12/30 23:19:40.477569,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BER_SCANF
+[2024/12/30 23:19:40.477573,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BER_SOCKBUF_ADD_IO
+[2024/12/30 23:19:40.477577,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BER_TAG_T
+[2024/12/30 23:19:40.477581,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BLKCNT_T
+[2024/12/30 23:19:40.477585,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BLKSIZE_T
+[2024/12/30 23:19:40.477589,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BOOL
+[2024/12/30 23:19:40.477593,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BSD_STRTOLL
+[2024/12/30 23:19:40.477597,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_BZERO
+[2024/12/30 23:19:40.477601,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_C99_VSNPRINTF
+[2024/12/30 23:19:40.477605,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CAP_GET_PROC
+[2024/12/30 23:19:40.477609,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHARSET_CP850
+[2024/12/30 23:19:40.477613,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHARSET_UTF_8
+[2024/12/30 23:19:40.477617,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHECKSUM_IN_KRB5_CHECKSUM
+[2024/12/30 23:19:40.477621,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHMOD
+[2024/12/30 23:19:40.477625,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHOWN
+[2024/12/30 23:19:40.477629,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CHROOT
+[2024/12/30 23:19:40.477633,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLEARENV
+[2024/12/30 23:19:40.477637,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLIENT_GSS_C_CHANNEL_BOUND_FLAG
+[2024/12/30 23:19:40.477641,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLOCK_GETTIME
+[2024/12/30 23:19:40.477645,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLOCK_MONOTONIC
+[2024/12/30 23:19:40.477649,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLOCK_PROCESS_CPUTIME_ID
+[2024/12/30 23:19:40.477653,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CLOCK_REALTIME
+[2024/12/30 23:19:40.477657,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_COMPILER_WILL_OPTIMIZE_OUT_FNS
+[2024/12/30 23:19:40.477661,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CONNECT
+[2024/12/30 23:19:40.477668,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CONSTRUCTOR_ATTRIBUTE
+[2024/12/30 23:19:40.477672,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_COPY_FILE_RANGE
+[2024/12/30 23:19:40.477676,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CPPFUNCTION
+[2024/12/30 23:19:40.477680,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CRYPT
+[2024/12/30 23:19:40.477684,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CRYPT_R
+[2024/12/30 23:19:40.477688,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_CUPS
+[2024/12/30 23:19:40.477692,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DBUS_1
+[2024/12/30 23:19:40.477696,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_ASPRINTF
+[2024/12/30 23:19:40.477700,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_DLOPEN
+[2024/12/30 23:19:40.477704,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_EWOULDBLOCK
+[2024/12/30 23:19:40.477708,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_FDATASYNC
+[2024/12/30 23:19:40.477712,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_FS_COMPR_FL
+[2024/12/30 23:19:40.477716,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_FS_IOC_GETFLAGS
+[2024/12/30 23:19:40.477720,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_GETTIMEOFDAY
+[2024/12/30 23:19:40.477724,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_H_ERRNO
+[2024/12/30 23:19:40.477728,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_KRB5_AUTH_CON_SET_REQ_CKSUMTYPE
+[2024/12/30 23:19:40.477733,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_KRB5_GET_CREDENTIALS_FOR_USER
+[2024/12/30 23:19:40.477737,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_KRB5_PAC_GET_BUFFER
+[2024/12/30 23:19:40.477741,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_MALLOC
+[2024/12/30 23:19:40.477745,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_MEMALIGN
+[2024/12/30 23:19:40.477749,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_PTHREAD_MUTEX_ROBUST
+[2024/12/30 23:19:40.477753,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_READAHEAD
+[2024/12/30 23:19:40.477757,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_RL_EVENT_HOOK
+[2024/12/30 23:19:40.477761,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_SNPRINTF
+[2024/12/30 23:19:40.477765,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_STRPTIME
+[2024/12/30 23:19:40.477769,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_VASPRINTF
+[2024/12/30 23:19:40.477773,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL_VSNPRINTF
+[2024/12/30 23:19:40.477777,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DECL__RES
+[2024/12/30 23:19:40.477781,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DESTRUCTOR_ATTRIBUTE
+[2024/12/30 23:19:40.477789,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DES_PCBC_ENCRYPT
+[2024/12/30 23:19:40.477793,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DEVICE_MAJOR_FN
+[2024/12/30 23:19:40.477797,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DEVICE_MINOR_FN
+[2024/12/30 23:19:40.477801,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DIRENT_D_OFF
+[2024/12/30 23:19:40.477805,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DIRFD
+[2024/12/30 23:19:40.477809,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DIRFD_DECL
+[2024/12/30 23:19:40.477813,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DIRNAME
+[2024/12/30 23:19:40.477817,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DISABLE_FAULT_HANDLING
+[2024/12/30 23:19:40.477821,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DLCLOSE
+[2024/12/30 23:19:40.477825,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DLERROR
+[2024/12/30 23:19:40.477829,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DLOPEN
+[2024/12/30 23:19:40.477833,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DLSYM
+[2024/12/30 23:19:40.477837,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DN_EXPAND
+[2024/12/30 23:19:40.477841,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DPRINTF
+[2024/12/30 23:19:40.477845,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_DUP2
+[2024/12/30 23:19:40.477849,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENCTYPE_AES128_CTS_HMAC_SHA1_96
+[2024/12/30 23:19:40.477853,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENCTYPE_AES256_CTS_HMAC_SHA1_96
+[2024/12/30 23:19:40.477857,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENCTYPE_ARCFOUR_HMAC
+[2024/12/30 23:19:40.477861,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENCTYPE_ARCFOUR_HMAC_MD5
+[2024/12/30 23:19:40.477865,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENCTYPE_ARCFOUR_HMAC_MD5_56
+[2024/12/30 23:19:40.477869,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENDHOSTENT
+[2024/12/30 23:19:40.477873,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENDMNTENT
+[2024/12/30 23:19:40.477877,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ENVIRON_DECL
+[2024/12/30 23:19:40.477881,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_EPOLL
+[2024/12/30 23:19:40.477885,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_EPOLL_CREATE1
+[2024/12/30 23:19:40.477889,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ERR
+[2024/12/30 23:19:40.477893,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ERRNO_DECL
+[2024/12/30 23:19:40.477897,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ERRX
+[2024/12/30 23:19:40.477901,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ETHTOOL
+[2024/12/30 23:19:40.477905,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ETYPE_IN_ENCRYPTEDDATA
+[2024/12/30 23:19:40.477912,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_EVENTFD
+[2024/12/30 23:19:40.477916,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_EXECL
+[2024/12/30 23:19:40.477921,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_E_DATA_POINTER_IN_KRB5_ERROR
+[2024/12/30 23:19:40.477925,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FALLOCATE
+[2024/12/30 23:19:40.477929,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FALLOC_FL_PUNCH_HOLE
+[2024/12/30 23:19:40.477933,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FALLTHROUGH_ATTRIBUTE
+[2024/12/30 23:19:40.477937,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FCHMOD
+[2024/12/30 23:19:40.477941,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FCHOWN
+[2024/12/30 23:19:40.477945,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FCNTL_LOCK
+[2024/12/30 23:19:40.477949,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FDATASYNC
+[2024/12/30 23:19:40.477953,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FDOPENDIR
+[2024/12/30 23:19:40.477957,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FLAGS_IN_KRB5_CREDS
+[2024/12/30 23:19:40.477961,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FLOCK
+[2024/12/30 23:19:40.477965,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FMEMOPEN
+[2024/12/30 23:19:40.477969,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FREEADDRINFO
+[2024/12/30 23:19:40.477973,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FREEIFADDRS
+[2024/12/30 23:19:40.477977,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FREE_CHECKSUM
+[2024/12/30 23:19:40.477981,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FRSIZE
+[2024/12/30 23:19:40.477985,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FSEEKO
+[2024/12/30 23:19:40.477989,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FSID_INT
+[2024/12/30 23:19:40.477993,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FSYNC
+[2024/12/30 23:19:40.477997,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FTRUNCATE
+[2024/12/30 23:19:40.478001,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FTRUNCATE_EXTEND
+[2024/12/30 23:19:40.478005,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FUNCTION_MACRO
+[2024/12/30 23:19:40.478009,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_FUTIMENS
+[2024/12/30 23:19:40.478013,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_F_OWNER_EX
+[2024/12/30 23:19:40.478017,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_F_SETLEASE_DECL
+[2024/12/30 23:19:40.478021,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GAI_STRERROR
+[2024/12/30 23:19:40.478025,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GCC_VOLATILE_MEMORY_PROTECTION
+[2024/12/30 23:19:40.478029,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETADDRINFO
+[2024/12/30 23:19:40.478033,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETAUXVAL
+[2024/12/30 23:19:40.478040,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETCWD
+[2024/12/30 23:19:40.478045,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETDOMAINNAME
+[2024/12/30 23:19:40.478048,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETGRENT
+[2024/12/30 23:19:40.478052,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETGRGID_R
+[2024/12/30 23:19:40.478056,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETGRNAM
+[2024/12/30 23:19:40.478060,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETGRNAM_R
+[2024/12/30 23:19:40.478064,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETGROUPLIST
+[2024/12/30 23:19:40.478068,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETHOSTBYADDR
+[2024/12/30 23:19:40.478072,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETHOSTBYNAME
+[2024/12/30 23:19:40.478076,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETHOSTBYNAME_R
+[2024/12/30 23:19:40.478080,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETHOSTENT
+[2024/12/30 23:19:40.478084,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETHOSTNAME
+[2024/12/30 23:19:40.478088,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETIFADDRS
+[2024/12/30 23:19:40.478092,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETMNTENT
+[2024/12/30 23:19:40.478096,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETNAMEINFO
+[2024/12/30 23:19:40.478100,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETPAGESIZE
+[2024/12/30 23:19:40.478104,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETPGRP
+[2024/12/30 23:19:40.478108,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETPWNAM
+[2024/12/30 23:19:40.478112,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETPWNAM_R
+[2024/12/30 23:19:40.478116,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETPWUID_R
+[2024/12/30 23:19:40.478120,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETRANDOM
+[2024/12/30 23:19:40.478124,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETRLIMIT
+[2024/12/30 23:19:40.478128,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETSPNAM
+[2024/12/30 23:19:40.478132,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETTIMEOFDAY_TZ_VOID
+[2024/12/30 23:19:40.478136,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GETXATTR
+[2024/12/30 23:19:40.478140,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GET_CURRENT_DIR_NAME
+[2024/12/30 23:19:40.478144,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GLIB
+[2024/12/30 23:19:40.478148,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GLIB_2_0
+[2024/12/30 23:19:40.478152,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GLOB
+[2024/12/30 23:19:40.478156,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GNUTLS
+[2024/12/30 23:19:40.478163,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GNUTLS_CB_TLS_SERVER_END_POINT
+[2024/12/30 23:19:40.478167,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GPFS
+[2024/12/30 23:19:40.478172,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GRANTPT
+[2024/12/30 23:19:40.478176,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSAPI
+[2024/12/30 23:19:40.478180,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSKRB5_EXTRACT_AUTHZ_DATA_FROM_SEC_CONTEXT
+[2024/12/30 23:19:40.478184,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSSKRB5_GET_SUBKEY
+[2024/12/30 23:19:40.478188,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_DISPLAY_STATUS
+[2024/12/30 23:19:40.478192,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_EXPORT_CRED
+[2024/12/30 23:19:40.478196,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_IMPORT_CRED
+[2024/12/30 23:19:40.478200,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_INQUIRE_SEC_CONTEXT_BY_OID
+[2024/12/30 23:19:40.478204,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_KRB5_CRED_NO_CI_FLAGS_X
+[2024/12/30 23:19:40.478208,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_KRB5_EXPORT_LUCID_SEC_CONTEXT
+[2024/12/30 23:19:40.478212,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_KRB5_IMPORT_CRED
+[2024/12/30 23:19:40.478216,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_OID_EQUAL
+[2024/12/30 23:19:40.478221,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_GSS_WRAP_IOV
+[2024/12/30 23:19:40.478225,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_HISTORY_LIST
+[2024/12/30 23:19:40.478229,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_HSTRERROR
+[2024/12/30 23:19:40.478233,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_HTTPCONNECT
+[2024/12/30 23:19:40.478237,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_HTTPCONNECT2
+[2024/12/30 23:19:40.478241,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_HTTPCONNECTENCRYPT
+[2024/12/30 23:19:40.478245,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_H_ERRNO
+[2024/12/30 23:19:40.478248,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ICONV
+[2024/12/30 23:19:40.478253,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ICONV_ERRNO_ILLEGAL_MULTIBYTE
+[2024/12/30 23:19:40.478257,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ICONV_OPEN
+[2024/12/30 23:19:40.478261,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ICU_I18N
+[2024/12/30 23:19:40.478265,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IF_NAMEINDEX
+[2024/12/30 23:19:40.478268,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IF_NAMETOINDEX
+[2024/12/30 23:19:40.478273,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IMMEDIATE_STRUCTURES
+[2024/12/30 23:19:40.478277,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INET_ATON
+[2024/12/30 23:19:40.478284,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INET_NTOA
+[2024/12/30 23:19:40.478288,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INET_NTOP
+[2024/12/30 23:19:40.478293,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INET_PTON
+[2024/12/30 23:19:40.478296,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INITGROUPS
+[2024/12/30 23:19:40.478301,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INITIALIZE_KRB5_ERROR_TABLE
+[2024/12/30 23:19:40.478305,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INITSCR
+[2024/12/30 23:19:40.478308,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INOTIFY
+[2024/12/30 23:19:40.478312,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INOTIFY_INIT
+[2024/12/30 23:19:40.478316,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INO_T
+[2024/12/30 23:19:40.478320,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INT16_T
+[2024/12/30 23:19:40.478324,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INT32_T
+[2024/12/30 23:19:40.478328,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INT64_T
+[2024/12/30 23:19:40.478333,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INT8_T
+[2024/12/30 23:19:40.478337,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_INTPTR_T
+[2024/12/30 23:19:40.478341,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IO_URING_RING_DONTFORK
+[2024/12/30 23:19:40.478345,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IPRINT
+[2024/12/30 23:19:40.478349,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IPV6
+[2024/12/30 23:19:40.478353,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_IPV6_V6ONLY
+[2024/12/30 23:19:40.478357,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ISATTY
+[2024/12/30 23:19:40.478361,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ITEM_COUNT
+[2024/12/30 23:19:40.478365,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_JANSSON
+[2024/12/30 23:19:40.478369,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_JSON_OBJECT
+[2024/12/30 23:19:40.478373,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KERNEL_OPLOCKS_LINUX
+[2024/12/30 23:19:40.478377,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5
+[2024/12/30 23:19:40.478381,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_ADDLOG_FUNC_NEED_CONTEXT
+[2024/12/30 23:19:40.478385,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_ADDRESSES
+[2024/12/30 23:19:40.478389,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_AUTH_CON_SETKEY
+[2024/12/30 23:19:40.478393,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CC_COPY_CACHE
+[2024/12/30 23:19:40.478397,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CC_GET_LIFETIME
+[2024/12/30 23:19:40.478401,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CONFIG_GET_BOOL_DEFAULT
+[2024/12/30 23:19:40.478408,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CONST_PAC
+[2024/12/30 23:19:40.478412,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CREATE_CHECKSUM
+[2024/12/30 23:19:40.478416,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CRYPTO
+[2024/12/30 23:19:40.478420,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CRYPTO_DESTROY
+[2024/12/30 23:19:40.478424,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_CRYPTO_INIT
+[2024/12/30 23:19:40.478428,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_C_VERIFY_CHECKSUM
+[2024/12/30 23:19:40.478432,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_DATA_COPY
+[2024/12/30 23:19:40.478436,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_ENCTYPE_TO_STRING
+[2024/12/30 23:19:40.478441,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_ENCTYPE_TO_STRING_WITH_KRB5_CONTEXT_ARG
+[2024/12/30 23:19:40.478452,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_FREE_ERROR_CONTENTS
+[2024/12/30 23:19:40.478456,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_FREE_HOST_REALM
+[2024/12/30 23:19:40.478460,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_FREE_UNPARSED_NAME
+[2024/12/30 23:19:40.478465,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_FWD_TGT_CREDS
+[2024/12/30 23:19:40.478469,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_CREDS
+[2024/12/30 23:19:40.478473,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_CREDS_OPT_ALLOC
+[2024/12/30 23:19:40.478477,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_CREDS_OPT_SET_IMPERSONATE
+[2024/12/30 23:19:40.478481,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_DEFAULT_IN_TKT_ETYPES
+[2024/12/30 23:19:40.478485,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_HOST_REALM
+[2024/12/30 23:19:40.478489,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_KEYBLOCK
+[2024/12/30 23:19:40.478497,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_ALLOC
+[2024/12/30 23:19:40.478501,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_FREE
+[2024/12/30 23:19:40.478505,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_GET_ERROR
+[2024/12/30 23:19:40.478510,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_SET_FAST_CCACHE
+[2024/12/30 23:19:40.478514,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_SET_FAST_FLAGS
+[2024/12/30 23:19:40.478519,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_INIT_CREDS_OPT_SET_PAC_REQUEST
+[2024/12/30 23:19:40.478523,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_PW_SALT
+[2024/12/30 23:19:40.478527,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_GET_RENEWED_CREDS
+[2024/12/30 23:19:40.478531,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KEYBLOCK_INIT
+[2024/12/30 23:19:40.478538,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KEYBLOCK_KEYVALUE
+[2024/12/30 23:19:40.478542,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KEYTAB_ENTRY_KEYBLOCK
+[2024/12/30 23:19:40.478546,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KRBHST_GET_ADDRINFO
+[2024/12/30 23:19:40.478550,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KRBHST_INIT
+[2024/12/30 23:19:40.478554,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KT_COMPARE
+[2024/12/30 23:19:40.478558,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KT_FREE_ENTRY
+[2024/12/30 23:19:40.478562,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_KU_OTHER_CKSUM
+[2024/12/30 23:19:40.478566,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_MAKE_PRINCIPAL
+[2024/12/30 23:19:40.478570,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_MK_REQ_EXTENDED
+[2024/12/30 23:19:40.478575,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PAC_IS_TRUSTED
+[2024/12/30 23:19:40.478579,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PDU_NONE_DECL
+[2024/12/30 23:19:40.478583,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_COMPARE_ANY_REALM
+[2024/12/30 23:19:40.478587,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_GET_COMP_STRING
+[2024/12/30 23:19:40.478591,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_GET_NUM_COMP
+[2024/12/30 23:19:40.478595,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_GET_REALM
+[2024/12/30 23:19:40.478599,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_GET_TYPE
+[2024/12/30 23:19:40.478603,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_SET_REALM
+[2024/12/30 23:19:40.478607,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PRINCIPAL_SET_TYPE
+[2024/12/30 23:19:40.478611,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_PROMPT_TYPE
+[2024/12/30 23:19:40.478615,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_REALM_TYPE
+[2024/12/30 23:19:40.478619,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_SET_DEFAULT_IN_TKT_ETYPES
+[2024/12/30 23:19:40.478623,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_SET_REAL_TIME
+[2024/12/30 23:19:40.478627,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_STRING_TO_KEY
+[2024/12/30 23:19:40.478631,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_STRING_TO_KEY_SALT
+[2024/12/30 23:19:40.478635,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB5_WARNX
+[2024/12/30 23:19:40.478639,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_KRB_STRUCT_WINSIZE
+[2024/12/30 23:19:40.478643,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LARGEFILE
+[2024/12/30 23:19:40.478647,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LBER_LOG_PRINT_FN
+[2024/12/30 23:19:40.478654,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LCHOWN
+[2024/12/30 23:19:40.478658,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP
+[2024/12/30 23:19:40.478662,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_ADD_RESULT_ENTRY
+[2024/12/30 23:19:40.478666,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_INIT
+[2024/12/30 23:19:40.478670,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_INITIALIZE
+[2024/12/30 23:19:40.478674,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_INIT_FD
+[2024/12/30 23:19:40.478678,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_OPT_SOCKBUF
+[2024/12/30 23:19:40.478682,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_SASL_WRAPPING
+[2024/12/30 23:19:40.478686,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDAP_SET_REBIND_PROC
+[2024/12/30 23:19:40.478690,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDB
+[2024/12/30 23:19:40.478694,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LDWRAP
+[2024/12/30 23:19:40.478698,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBACL
+[2024/12/30 23:19:40.478702,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBARCHIVE
+[2024/12/30 23:19:40.478706,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBAVAHI_CLIENT
+[2024/12/30 23:19:40.478710,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBAVAHI_COMMON
+[2024/12/30 23:19:40.478714,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBCAP
+[2024/12/30 23:19:40.478718,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBCRYPT
+[2024/12/30 23:19:40.478722,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBCRYPTO
+[2024/12/30 23:19:40.478726,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBCUPS
+[2024/12/30 23:19:40.478730,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBDBUS_1
+[2024/12/30 23:19:40.478734,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBFORM
+[2024/12/30 23:19:40.478738,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBGLIB_2_0
+[2024/12/30 23:19:40.478742,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBICUDATA
+[2024/12/30 23:19:40.478746,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBICUI18N
+[2024/12/30 23:19:40.478750,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBICUUC
+[2024/12/30 23:19:40.478754,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBJANSSON
+[2024/12/30 23:19:40.478759,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBKRB5
+[2024/12/30 23:19:40.478763,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBLBER
+[2024/12/30 23:19:40.478767,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBLDAP
+[2024/12/30 23:19:40.478771,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBMENU
+[2024/12/30 23:19:40.478775,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBNCURSES
+[2024/12/30 23:19:40.478782,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBPAM
+[2024/12/30 23:19:40.478786,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBPANEL
+[2024/12/30 23:19:40.478790,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBPOPT
+[2024/12/30 23:19:40.478794,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBREADLINE
+[2024/12/30 23:19:40.478798,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBREPLACE
+[2024/12/30 23:19:40.478802,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBRESOLV
+[2024/12/30 23:19:40.478806,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBTASN1
+[2024/12/30 23:19:40.478810,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBURING
+[2024/12/30 23:19:40.478814,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LIBZ
+[2024/12/30 23:19:40.478818,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINK
+[2024/12/30 23:19:40.478822,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_FALLOCATE
+[2024/12/30 23:19:40.478826,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_INOTIFY
+[2024/12/30 23:19:40.478830,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_IOCTL
+[2024/12/30 23:19:40.478834,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_READAHEAD
+[2024/12/30 23:19:40.478838,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_SPLICE
+[2024/12/30 23:19:40.478842,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LINUX_THREAD_CREDENTIALS
+[2024/12/30 23:19:40.478846,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LITTLE_ENDIAN
+[2024/12/30 23:19:40.478850,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LONGJMP
+[2024/12/30 23:19:40.478854,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LONG_LONG
+[2024/12/30 23:19:40.478858,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LSEEK_HOLE_DATA
+[2024/12/30 23:19:40.478862,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LSTAT
+[2024/12/30 23:19:40.478866,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_LUTIMES
+[2024/12/30 23:19:40.478870,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MAKEDEV
+[2024/12/30 23:19:40.478874,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMALIGN
+[2024/12/30 23:19:40.478878,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMCPY
+[2024/12/30 23:19:40.478881,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMMEM
+[2024/12/30 23:19:40.478885,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMMOVE
+[2024/12/30 23:19:40.478889,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MEMSET
+[2024/12/30 23:19:40.478893,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKDIR_MODE
+[2024/12/30 23:19:40.478897,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKDTEMP
+[2024/12/30 23:19:40.478901,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKNOD
+[2024/12/30 23:19:40.478908,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKNODAT
+[2024/12/30 23:19:40.478912,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKOSTEMP
+[2024/12/30 23:19:40.478916,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MKTIME
+[2024/12/30 23:19:40.478920,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MLOCK
+[2024/12/30 23:19:40.478924,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MLOCKALL
+[2024/12/30 23:19:40.478928,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MMAP
+[2024/12/30 23:19:40.478932,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MREMAP
+[2024/12/30 23:19:40.478936,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MUNLOCK
+[2024/12/30 23:19:40.478940,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_MUNLOCKALL
+[2024/12/30 23:19:40.478944,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NATIVE_ICONV
+[2024/12/30 23:19:40.478948,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NCURSES
+[2024/12/30 23:19:40.478952,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NETGROUP
+[2024/12/30 23:19:40.478956,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NEW_FIELD
+[2024/12/30 23:19:40.478960,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NEW_FORM
+[2024/12/30 23:19:40.478964,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NEW_LIBREADLINE
+[2024/12/30 23:19:40.478968,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NEW_PANEL
+[2024/12/30 23:19:40.478972,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_NFTW
+[2024/12/30 23:19:40.478976,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_OFD_LOCKS
+[2024/12/30 23:19:40.478980,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_OPENAT
+[2024/12/30 23:19:40.478984,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_OPENPTY
+[2024/12/30 23:19:40.478988,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_OPEN_O_DIRECT
+[2024/12/30 23:19:40.478992,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_GET_DATA
+[2024/12/30 23:19:40.478996,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_RADIO_TYPE
+[2024/12/30 23:19:40.479000,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_RHOST
+[2024/12/30 23:19:40.479004,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_START
+[2024/12/30 23:19:40.479008,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_TTY
+[2024/12/30 23:19:40.479012,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PAM_VSYSLOG
+[2024/12/30 23:19:40.479016,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PATHCONF
+[2024/12/30 23:19:40.479020,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PEERCRED
+[2024/12/30 23:19:40.479024,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PIPE
+[2024/12/30 23:19:40.479028,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POLL
+[2024/12/30 23:19:40.479035,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POPT
+[2024/12/30 23:19:40.479039,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POPTGETCONTEXT
+[2024/12/30 23:19:40.479043,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_ACLS
+[2024/12/30 23:19:40.479047,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_CAPABILITIES
+[2024/12/30 23:19:40.479051,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_FADVISE
+[2024/12/30 23:19:40.479055,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_FALLOCATE
+[2024/12/30 23:19:40.479059,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_MEMALIGN
+[2024/12/30 23:19:40.479063,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_POSIX_OPENPT
+[2024/12/30 23:19:40.479067,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PRCTL
+[2024/12/30 23:19:40.479071,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PREAD
+[2024/12/30 23:19:40.479075,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PREAD_DECL
+[2024/12/30 23:19:40.479079,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PRINTF
+[2024/12/30 23:19:40.479083,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PROGRAM_INVOCATION_SHORT_NAME
+[2024/12/30 23:19:40.479087,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD
+[2024/12/30 23:19:40.479091,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD_ATTR_INIT
+[2024/12/30 23:19:40.479095,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD_CREATE
+[2024/12/30 23:19:40.479099,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD_MUTEXATTR_SETROBUST
+[2024/12/30 23:19:40.479103,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTHREAD_MUTEX_CONSISTENT
+[2024/12/30 23:19:40.479107,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PTRDIFF_T
+[2024/12/30 23:19:40.479111,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PUTENV
+[2024/12/30 23:19:40.479115,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PUTUTLINE
+[2024/12/30 23:19:40.479119,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PUTUTXLINE
+[2024/12/30 23:19:40.479123,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PWRITE
+[2024/12/30 23:19:40.479127,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PWRITE_DECL
+[2024/12/30 23:19:40.479131,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PYEMBED
+[2024/12/30 23:19:40.479135,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PYEXT
+[2024/12/30 23:19:40.479140,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PYLDB_UTIL_CPYTHON_312_X86_64_LINUX_MUSL
+[2024/12/30 23:19:40.479144,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_PYTALLOC_UTIL_CPYTHON_312_X86_64_LINUX_MUSL
+[2024/12/30 23:19:40.479148,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_QUOTACTL_LINUX
+[2024/12/30 23:19:40.479152,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RAND
+[2024/12/30 23:19:40.479158,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RANDOM
+[2024/12/30 23:19:40.479162,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_READAHEAD_DECL
+[2024/12/30 23:19:40.479166,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_READLINK
+[2024/12/30 23:19:40.479171,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_READV
+[2024/12/30 23:19:40.479175,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_REALPATH
+[2024/12/30 23:19:40.479179,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RENAME
+[2024/12/30 23:19:40.479183,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RES_SEARCH
+[2024/12/30 23:19:40.479187,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_RL_COMPLETION_MATCHES
+[2024/12/30 23:19:40.479191,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ROBUST_MUTEXES
+[2024/12/30 23:19:40.479195,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SA_FAMILY_T
+[2024/12/30 23:19:40.479199,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SA_SIGINFO_DECL
+[2024/12/30 23:19:40.479203,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURE_GETENV
+[2024/12/30 23:19:40.479207,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SECURE_MKSTEMP
+[2024/12/30 23:19:40.479211,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SELECT
+[2024/12/30 23:19:40.479215,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SENDFILE
+[2024/12/30 23:19:40.479219,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SENDMSG
+[2024/12/30 23:19:40.479223,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETBUFFER
+[2024/12/30 23:19:40.479227,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETEGID
+[2024/12/30 23:19:40.479231,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETENV
+[2024/12/30 23:19:40.479235,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETENV_DECL
+[2024/12/30 23:19:40.479239,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETEUID
+[2024/12/30 23:19:40.479243,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETGID
+[2024/12/30 23:19:40.479247,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETGROUPS
+[2024/12/30 23:19:40.479251,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETHOSTENT
+[2024/12/30 23:19:40.479255,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETITIMER
+[2024/12/30 23:19:40.479259,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETLINEBUF
+[2024/12/30 23:19:40.479263,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETLOCALE
+[2024/12/30 23:19:40.479267,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETMNTENT
+[2024/12/30 23:19:40.479271,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETPGID
+[2024/12/30 23:19:40.479275,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETREGID
+[2024/12/30 23:19:40.479282,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETRESGID
+[2024/12/30 23:19:40.479286,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETRESGID_DECL
+[2024/12/30 23:19:40.479290,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETRESUID
+[2024/12/30 23:19:40.479294,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETRESUID_DECL
+[2024/12/30 23:19:40.479298,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETREUID
+[2024/12/30 23:19:40.479302,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETSID
+[2024/12/30 23:19:40.479306,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SETUID
+[2024/12/30 23:19:40.479310,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SET_MENU_ITEMS
+[2024/12/30 23:19:40.479314,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SHARED_MMAP
+[2024/12/30 23:19:40.479318,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SHOW_PANEL
+[2024/12/30 23:19:40.479322,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIGACTION
+[2024/12/30 23:19:40.479326,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIGLONGJMP
+[2024/12/30 23:19:40.479330,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIGPROCMASK
+[2024/12/30 23:19:40.479334,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIGSET
+[2024/12/30 23:19:40.479338,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIG_ATOMIC_T_TYPE
+[2024/12/30 23:19:40.479342,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIMPLE_C_PROG
+[2024/12/30 23:19:40.479346,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SIZE_T
+[2024/12/30 23:19:40.479350,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SNPRINTF
+[2024/12/30 23:19:40.479354,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SOCKET
+[2024/12/30 23:19:40.479357,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SOCKETPAIR
+[2024/12/30 23:19:40.479361,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SOCKLEN_T
+[2024/12/30 23:19:40.479365,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SPLICE_DECL
+[2024/12/30 23:19:40.479369,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SPOTLIGHT_BACKEND_ES
+[2024/12/30 23:19:40.479373,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SRAND
+[2024/12/30 23:19:40.479377,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SRANDOM
+[2024/12/30 23:19:40.479381,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SSIZE_T
+[2024/12/30 23:19:40.479385,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SS_FAMILY
+[2024/12/30 23:19:40.479389,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STATFS_F_FSID
+[2024/12/30 23:19:40.479393,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STATVFS
+[2024/12/30 23:19:40.479397,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STATVFS_F_FLAG
+[2024/12/30 23:19:40.479401,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STAT_HIRES_TIMESTAMPS
+[2024/12/30 23:19:40.479408,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STAT_ST_BLKSIZE
+[2024/12/30 23:19:40.479412,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STAT_ST_BLOCKS
+[2024/12/30 23:19:40.479416,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRCASECMP
+[2024/12/30 23:19:40.479420,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRCASESTR
+[2024/12/30 23:19:40.479424,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRCHR
+[2024/12/30 23:19:40.479428,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRCPY
+[2024/12/30 23:19:40.479432,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRDUP
+[2024/12/30 23:19:40.479436,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRERROR
+[2024/12/30 23:19:40.479440,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRERROR_R
+[2024/12/30 23:19:40.479451,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRFTIME
+[2024/12/30 23:19:40.479455,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRLCAT
+[2024/12/30 23:19:40.479459,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRLCPY
+[2024/12/30 23:19:40.479463,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRNCASECMP
+[2024/12/30 23:19:40.479467,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRNCPY
+[2024/12/30 23:19:40.479471,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRNDUP
+[2024/12/30 23:19:40.479475,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRNLEN
+[2024/12/30 23:19:40.479479,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRPBRK
+[2024/12/30 23:19:40.479483,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRPTIME
+[2024/12/30 23:19:40.479487,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRSEP
+[2024/12/30 23:19:40.479491,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRSIGNAL
+[2024/12/30 23:19:40.479495,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRTOK_R
+[2024/12/30 23:19:40.479499,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRTOL
+[2024/12/30 23:19:40.479503,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRTOLL
+[2024/12/30 23:19:40.479507,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRTOULL
+[2024/12/30 23:19:40.479510,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_ADDRINFO
+[2024/12/30 23:19:40.479514,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_IFADDRS
+[2024/12/30 23:19:40.479518,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_MSGHDR_MSG_CONTROL
+[2024/12/30 23:19:40.479522,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_SIGEVENT
+[2024/12/30 23:19:40.479527,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_SIGEVENT_SIGEV_VALUE_SIVAL_PTR
+[2024/12/30 23:19:40.479532,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_SOCKADDR
+[2024/12/30 23:19:40.479539,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_SOCKADDR_IN6
+[2024/12/30 23:19:40.479544,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_SOCKADDR_STORAGE
+[2024/12/30 23:19:40.479548,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+[2024/12/30 23:19:40.479552,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_STAT_ST_RDEV
+[2024/12/30 23:19:40.479556,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_TIMESPEC
+[2024/12/30 23:19:40.479560,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_STRUCT_WINSIZE
+[2024/12/30 23:19:40.479564,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ST_RDEV
+[2024/12/30 23:19:40.479568,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SWAB
+[2024/12/30 23:19:40.479572,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYMLINK
+[2024/12/30 23:19:40.479576,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYSCALL
+[2024/12/30 23:19:40.479580,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYSCONF
+[2024/12/30 23:19:40.479584,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_SYSLOG
+[2024/12/30 23:19:40.479589,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TALLOC
+[2024/12/30 23:19:40.479593,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TCP_USER_TIMEOUT
+[2024/12/30 23:19:40.479597,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TDB
+[2024/12/30 23:19:40.479601,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TEVENT
+[2024/12/30 23:19:40.479605,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TGETENT
+[2024/12/30 23:19:40.479609,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TIMEGM
+[2024/12/30 23:19:40.479613,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_TIRPC
+[2024/12/30 23:19:40.479617,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UCONTEXT_T
+[2024/12/30 23:19:40.479621,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UINT16_T
+[2024/12/30 23:19:40.479625,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UINT32_T
+[2024/12/30 23:19:40.479629,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UINT64_T
+[2024/12/30 23:19:40.479633,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UINT8_T
+[2024/12/30 23:19:40.479637,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UINTPTR_T
+[2024/12/30 23:19:40.479641,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UMASK
+[2024/12/30 23:19:40.479645,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNAME
+[2024/12/30 23:19:40.479649,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNIXSOCKET
+[2024/12/30 23:19:40.479653,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNSETENV
+[2024/12/30 23:19:40.479657,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UNSHARE_CLONE_FS
+[2024/12/30 23:19:40.479661,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UPDWTMP
+[2024/12/30 23:19:40.479670,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UPDWTMPX
+[2024/12/30 23:19:40.479674,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_URING
+[2024/12/30 23:19:40.479678,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_USLEEP
+[2024/12/30 23:19:40.479682,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTF8_NORMALISATION
+[2024/12/30 23:19:40.479686,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTIMBUF
+[2024/12/30 23:19:40.479690,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTIME
+[2024/12/30 23:19:40.479694,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTIMENSAT
+[2024/12/30 23:19:40.479698,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UTIMES
+[2024/12/30 23:19:40.479702,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_UX_UT_HOST
+[2024/12/30 23:19:40.479706,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_U_CHAR
+[2024/12/30 23:19:40.479710,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_U_INT32_T
+[2024/12/30 23:19:40.479714,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VASPRINTF
+[2024/12/30 23:19:40.479718,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VA_COPY
+[2024/12/30 23:19:40.479722,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VDPRINTF
+[2024/12/30 23:19:40.479726,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VISIBILITY_ATTR
+[2024/12/30 23:19:40.479730,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VOLATILE
+[2024/12/30 23:19:40.479734,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VSNPRINTF
+[2024/12/30 23:19:40.479737,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_VSYSLOG
+[2024/12/30 23:19:40.479742,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WAIT4
+[2024/12/30 23:19:40.479746,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WAITPID
+[2024/12/30 23:19:40.479750,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WARN
+[2024/12/30 23:19:40.479753,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WARNX
+[2024/12/30 23:19:40.479758,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WNO_FORMAT_TRUNCATION
+[2024/12/30 23:19:40.479762,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WNO_STRICT_OVERFLOW
+[2024/12/30 23:19:40.479766,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WNO_UNUSED_BUT_SET_VARIABLE
+[2024/12/30 23:19:40.479770,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WNO_UNUSED_FUNCTION
+[2024/12/30 23:19:40.479774,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WRITEV
+[2024/12/30 23:19:40.479778,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WS_XPIXEL
+[2024/12/30 23:19:40.479782,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WS_YPIXEL
+[2024/12/30 23:19:40.479786,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_WUSE_AFTER_FREE_1
+[2024/12/30 23:19:40.479793,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_XATTR_SUPPORT
+[2024/12/30 23:19:40.479797,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_XATTR_XATTR
+[2024/12/30 23:19:40.479801,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE_ZLIB
+[2024/12/30 23:19:40.479805,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE__RES
+[2024/12/30 23:19:40.479809,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___ATOMIC_ADD_FETCH
+[2024/12/30 23:19:40.479813,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___ATOMIC_ADD_LOAD
+[2024/12/30 23:19:40.479817,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___ATTRIBUTE__
+[2024/12/30 23:19:40.479821,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___SYNC_ADD_AND_FETCH
+[2024/12/30 23:19:40.479825,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___SYNC_FETCH_AND_ADD
+[2024/12/30 23:19:40.479829,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     HAVE___THREAD
+[2024/12/30 23:19:40.479833,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  --with Options:
+[2024/12/30 23:19:40.479839,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_ADS
+[2024/12/30 23:19:40.479843,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_AUTOMOUNT
+[2024/12/30 23:19:40.479847,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_AVAHI_SUPPORT
+[2024/12/30 23:19:40.479851,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_PAM
+[2024/12/30 23:19:40.479855,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_PAM_MODULES
+[2024/12/30 23:19:40.479859,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_PTHREADPOOL
+[2024/12/30 23:19:40.479863,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_QUOTAS
+[2024/12/30 23:19:40.479867,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_SMB1SERVER
+[2024/12/30 23:19:40.479871,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_SPOTLIGHT
+[2024/12/30 23:19:40.479875,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_SYSLOG
+[2024/12/30 23:19:40.479879,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_TEVENT_GLIB_GLUE
+[2024/12/30 23:19:40.479883,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_WINBIND
+[2024/12/30 23:19:40.479887,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WITH_WSP
+[2024/12/30 23:19:40.479891,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Build Options:
+[2024/12/30 23:19:40.479896,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     AD_DC_BUILD_IS_ENABLED
+[2024/12/30 23:19:40.479901,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     ALLOW_GNUTLS_AEAD_CIPHER_ENCRYPTV2_AES_CCM
+[2024/12/30 23:19:40.479906,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     BOOL_DEFINED
+[2024/12/30 23:19:40.479910,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     BROKEN_NISPLUS_INCLUDE_FILES
+[2024/12/30 23:19:40.479914,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     COMPILER_SUPPORTS_LL
+[2024/12/30 23:19:40.479918,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     CONFIG_H_IS_FROM_SAMBA
+[2024/12/30 23:19:40.479923,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     DEFAULT_DOS_CHARSET
+[2024/12/30 23:19:40.479928,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     DEFAULT_UNIX_CHARSET
+[2024/12/30 23:19:40.479932,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     EXPECTED_SYSTEM_LDB_VERSION_MAJOR
+[2024/12/30 23:19:40.479936,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     EXPECTED_SYSTEM_LDB_VERSION_MINOR
+[2024/12/30 23:19:40.479940,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     EXPECTED_SYSTEM_LDB_VERSION_RELEASE
+[2024/12/30 23:19:40.479944,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     GETCWD_TAKES_NULL
+[2024/12/30 23:19:40.479948,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     INLINE_MACRO
+[2024/12/30 23:19:40.479952,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     KRB5_CONST_PAC_GET_BUFFER
+[2024/12/30 23:19:40.479956,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     KRB5_CREDS_OPT_FREE_REQUIRES_CONTEXT
+[2024/12/30 23:19:40.479960,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     KRB5_PRINC_REALM_RETURNS_REALM
+[2024/12/30 23:19:40.479964,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     LDAP_DEPRECATED
+[2024/12/30 23:19:40.479968,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     LDAP_SET_REBIND_PROC_ARGS
+[2024/12/30 23:19:40.479972,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     LIBREPLACE_NETWORK_CHECKS
+[2024/12/30 23:19:40.479977,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     LINUX
+[2024/12/30 23:19:40.479981,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     LINUX_SENDFILE_API
+[2024/12/30 23:19:40.479985,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     REALPATH_TAKES_NULL
+[2024/12/30 23:19:40.479989,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     RETSIGTYPE
+[2024/12/30 23:19:40.479993,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SAMBA4_USES_HEIMDAL
+[2024/12/30 23:19:40.479998,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SHLIBEXT
+[2024/12/30 23:19:40.480002,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_BLKCNT_T_8
+[2024/12/30 23:19:40.480006,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_BOOL
+[2024/12/30 23:19:40.480010,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_CHAR
+[2024/12/30 23:19:40.480014,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_DEV_T
+[2024/12/30 23:19:40.480018,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INO_T
+[2024/12/30 23:19:40.480022,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INT
+[2024/12/30 23:19:40.480026,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INT16_T
+[2024/12/30 23:19:40.480029,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INT32_T
+[2024/12/30 23:19:40.480033,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INT64_T
+[2024/12/30 23:19:40.480037,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_INT8_T
+[2024/12/30 23:19:40.480044,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_LONG
+[2024/12/30 23:19:40.480048,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_LONG_LONG
+[2024/12/30 23:19:40.480052,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_OFF_T
+[2024/12/30 23:19:40.480056,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_SHORT
+[2024/12/30 23:19:40.480060,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_SIZE_T
+[2024/12/30 23:19:40.480064,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_SSIZE_T
+[2024/12/30 23:19:40.480068,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_TIME_T
+[2024/12/30 23:19:40.480072,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_UINT16_T
+[2024/12/30 23:19:40.480076,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_UINT32_T
+[2024/12/30 23:19:40.480080,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_UINT64_T
+[2024/12/30 23:19:40.480084,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_UINT8_T
+[2024/12/30 23:19:40.480088,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SIZEOF_VOID_P
+[2024/12/30 23:19:40.480092,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SRCDIR
+[2024/12/30 23:19:40.480096,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STAT_STATVFS
+[2024/12/30 23:19:40.480100,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STAT_ST_BLOCKSIZE
+[2024/12/30 23:19:40.480104,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STDC_HEADERS
+[2024/12/30 23:19:40.480108,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STRERROR_R_XSI_NOT_GNU
+[2024/12/30 23:19:40.480112,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STRING_SHARED_MODULES
+[2024/12/30 23:19:40.480116,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     STRING_STATIC_MODULES
+[2024/12/30 23:19:40.480120,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SUMMARY_PASSES
+[2024/12/30 23:19:40.480124,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSCONF_SC_NGROUPS_MAX
+[2024/12/30 23:19:40.480128,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSCONF_SC_NPROCESSORS_ONLN
+[2024/12/30 23:19:40.480132,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSCONF_SC_PAGESIZE
+[2024/12/30 23:19:40.480136,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSTEM_UNAME_MACHINE
+[2024/12/30 23:19:40.480140,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSTEM_UNAME_RELEASE
+[2024/12/30 23:19:40.480144,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSTEM_UNAME_SYSNAME
+[2024/12/30 23:19:40.480148,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     SYSTEM_UNAME_VERSION
+[2024/12/30 23:19:40.480152,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TALLOC_BUILD_VERSION_MAJOR
+[2024/12/30 23:19:40.480156,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TALLOC_BUILD_VERSION_MINOR
+[2024/12/30 23:19:40.480160,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TALLOC_BUILD_VERSION_RELEASE
+[2024/12/30 23:19:40.480166,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TIME_T_MAX
+[2024/12/30 23:19:40.480171,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TIME_T_SIGNED
+[2024/12/30 23:19:40.480175,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     TIME_WITH_SYS_TIME
+[2024/12/30 23:19:40.480179,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_EMBEDDED_HEIMDAL
+[2024/12/30 23:19:40.480183,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_LDB
+[2024/12/30 23:19:40.480187,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_POPT
+[2024/12/30 23:19:40.480191,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_PYLDB_UTIL
+[2024/12/30 23:19:40.480195,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_PYTALLOC_UTIL
+[2024/12/30 23:19:40.480199,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_PYTDB
+[2024/12/30 23:19:40.480203,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_PYTEVENT
+[2024/12/30 23:19:40.480207,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_TALLOC
+[2024/12/30 23:19:40.480211,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_TDB
+[2024/12/30 23:19:40.480215,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     USING_SYSTEM_TEVENT
+[2024/12/30 23:19:40.480219,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     VALUEOF_NSIG
+[2024/12/30 23:19:40.480223,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     VALUEOF_SIGRTMAX
+[2024/12/30 23:19:40.480227,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     VALUEOF_SIGRTMIN
+[2024/12/30 23:19:40.480231,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     VALUEOF__NSIG
+[2024/12/30 23:19:40.480234,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     VOID_RETSIGTYPE
+[2024/12/30 23:19:40.480238,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     WINEXE_LDFLAGS
+[2024/12/30 23:19:40.480242,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     XSLTPROC_MANPAGES
+[2024/12/30 23:19:40.480246,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     _GNU_SOURCE
+[2024/12/30 23:19:40.480250,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     _HAVE_SENDFILE
+[2024/12/30 23:19:40.480254,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     _POSIX_FALLOCATE_CAPABLE_LIBC
+[2024/12/30 23:19:40.480258,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     _SAMBA_BUILD_
+[2024/12/30 23:19:40.480262,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     _XOPEN_SOURCE_EXTENDED
+[2024/12/30 23:19:40.480266,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     __TIME_T_MAX
+[2024/12/30 23:19:40.480270,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     auth_samba4_init
+[2024/12/30 23:19:40.480274,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     auth_script_init
+[2024/12/30 23:19:40.480278,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     auth_server_init
+[2024/12/30 23:19:40.480282,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     auth_unix_init
+[2024/12/30 23:19:40.480286,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     auth_wbc_init
+[2024/12/30 23:19:40.480293,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_ad_init
+[2024/12/30 23:19:40.480297,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_autorid_init
+[2024/12/30 23:19:40.480301,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_hash_init
+[2024/12/30 23:19:40.480305,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_ldap_init
+[2024/12/30 23:19:40.480309,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_rfc2307_init
+[2024/12/30 23:19:40.480313,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_rid_init
+[2024/12/30 23:19:40.480317,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_script_init
+[2024/12/30 23:19:40.480321,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     idmap_tdb2_init
+[2024/12/30 23:19:40.480325,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     loff_t
+[2024/12/30 23:19:40.480329,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     offset_t
+[2024/12/30 23:19:40.480333,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     pdb_ldapsam_init
+[2024/12/30 23:19:40.480337,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     pdb_samba4_init
+[2024/12/30 23:19:40.480341,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     pdb_smbpasswd_init
+[2024/12/30 23:19:40.480345,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     pdb_tdbsam_init
+[2024/12/30 23:19:40.480349,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     pdb_wbc_sam_init
+[2024/12/30 23:19:40.480353,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_auth
+[2024/12/30 23:19:40.480357,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_charset
+[2024/12/30 23:19:40.480361,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_gpext
+[2024/12/30 23:19:40.480365,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_idmap
+[2024/12/30 23:19:40.480369,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_nss_info
+[2024/12/30 23:19:40.480373,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_pdb
+[2024/12/30 23:19:40.480377,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_decl_vfs
+[2024/12/30 23:19:40.480381,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_auth
+[2024/12/30 23:19:40.480385,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_charset
+[2024/12/30 23:19:40.480389,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_gpext
+[2024/12/30 23:19:40.480393,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_idmap
+[2024/12/30 23:19:40.480397,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_nss_info
+[2024/12/30 23:19:40.480401,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_pdb
+[2024/12/30 23:19:40.480406,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     static_init_vfs
+[2024/12/30 23:19:40.480410,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     uint_t
+[2024/12/30 23:19:40.480418,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_acl_tdb_init
+[2024/12/30 23:19:40.480422,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_acl_xattr_init
+[2024/12/30 23:19:40.480426,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_aio_fork_init
+[2024/12/30 23:19:40.480430,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_aio_pthread_init
+[2024/12/30 23:19:40.480434,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_audit_init
+[2024/12/30 23:19:40.480438,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_btrfs_init
+[2024/12/30 23:19:40.480442,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_cap_init
+[2024/12/30 23:19:40.480452,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_catia_init
+[2024/12/30 23:19:40.480457,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_commit_init
+[2024/12/30 23:19:40.480461,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_crossrename_init
+[2024/12/30 23:19:40.480465,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_default_quota_init
+[2024/12/30 23:19:40.480469,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_dfs_samba4_init
+[2024/12/30 23:19:40.480473,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_dirsort_init
+[2024/12/30 23:19:40.480477,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_expand_msdfs_init
+[2024/12/30 23:19:40.480481,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_extd_audit_init
+[2024/12/30 23:19:40.480485,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_fake_perms_init
+[2024/12/30 23:19:40.480489,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_fileid_init
+[2024/12/30 23:19:40.480493,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_fruit_init
+[2024/12/30 23:19:40.480497,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_full_audit_init
+[2024/12/30 23:19:40.480501,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_glusterfs_fuse_init
+[2024/12/30 23:19:40.480505,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_gpfs_init
+[2024/12/30 23:19:40.480509,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_io_uring_init
+[2024/12/30 23:19:40.480513,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_linux_xfs_sgid_init
+[2024/12/30 23:19:40.480517,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_media_harmony_init
+[2024/12/30 23:19:40.480521,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_offline_init
+[2024/12/30 23:19:40.480525,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_posix_eadb_init
+[2024/12/30 23:19:40.480529,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_preopen_init
+[2024/12/30 23:19:40.480533,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_readahead_init
+[2024/12/30 23:19:40.480537,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_readonly_init
+[2024/12/30 23:19:40.480541,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_recycle_init
+[2024/12/30 23:19:40.480549,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_shadow_copy2_init
+[2024/12/30 23:19:40.480553,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_shadow_copy_init
+[2024/12/30 23:19:40.480557,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_shell_snap_init
+[2024/12/30 23:19:40.480561,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_snapper_init
+[2024/12/30 23:19:40.480565,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_streams_depot_init
+[2024/12/30 23:19:40.480569,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_streams_xattr_init
+[2024/12/30 23:19:40.480573,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_syncops_init
+[2024/12/30 23:19:40.480577,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_time_audit_init
+[2024/12/30 23:19:40.480581,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_unityed_media_init
+[2024/12/30 23:19:40.480585,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_virusfilter_init
+[2024/12/30 23:19:40.480589,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_widelinks_init
+[2024/12/30 23:19:40.480593,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_worm_init
+[2024/12/30 23:19:40.480597,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+     vfs_xattr_tdb_init
+[2024/12/30 23:19:40.480601,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Cluster support features:
+     NONE
+[2024/12/30 23:19:40.480611,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Type sizes:
+     sizeof(char):         1
+     sizeof(int):          4
+     sizeof(long):         8
+     sizeof(long long):    8
+     sizeof(uint8_t):      1
+     sizeof(uint16_t):     2
+     sizeof(uint32_t):     4
+     sizeof(short):        2
+     sizeof(void*):        8
+     sizeof(size_t):       8
+     sizeof(off_t):        8
+     sizeof(ino_t):        8
+     sizeof(dev_t):        8
+[2024/12/30 23:19:40.480639,  4, pid=67935, effective(0, 0), real(0, 0)] source3/smbd/build_options.c:45(output)
+  
+  Builtin modules:
+     vfs_default vfs_not_implemented vfs_posixacl auth_builtin auth_sam auth_winbind nss_info_template idmap_tdb idmap_passdb idmap_nss pdb_samba_dsdb
+  get_current_groups: user is in 1 groups: 0
+[2024/12/30 23:19:40.480752, 10, pid=67935, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:80(messaging_dgm_ref)
+  messaging_dgm_ref: messaging_dgm_init returned No error information
+[2024/12/30 23:19:40.480763, 10, pid=67935, effective(0, 0), real(0, 0)] ../../lib/messaging/messages_dgm_ref.c:109(messaging_dgm_ref)
+  messaging_dgm_ref: unique = 8561625594873333155
+[2024/12/30 23:19:40.480829,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 2 - private_data=0
+[2024/12/30 23:19:40.480838,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/tallocmsg.c:84(register_msg_pool_usage)
+  register_msg_pool_usage: Registered MSG_REQ_POOL_USAGE
+[2024/12/30 23:19:40.480843,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 11 - private_data=0
+[2024/12/30 23:19:40.480848,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 12 - private_data=0
+[2024/12/30 23:19:40.480852,  2, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/dmallocmsg.c:78(register_dmalloc_msgs)
+  Registered MSG_REQ_DMALLOC_MARK and LOG_CHANGED
+[2024/12/30 23:19:40.480860,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 1 - private_data=0
+[2024/12/30 23:19:40.480864,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 5 - private_data=0
+[2024/12/30 23:19:40.480869,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:716(messaging_register)
+  Registering messaging pointer for type 51 - private_data=0
+[2024/12/30 23:19:40.480873, 10, pid=67935, effective(0, 0), real(0, 0)] ../../source3/lib/messages.c:604(messaging_init_internal)
+  messaging_init_internal: my id: 67935
+[2024/12/30 23:19:40.480885,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:40.480978,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:3982(lp_load_ex)
+  lp_load_ex: refreshing parameters
+[2024/12/30 23:19:40.480985,  5, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1409(free_param_opts)
+  Freeing parametrics:
+[2024/12/30 23:19:40.481013,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:560(loadparm_s3_init_globals)
+  Initialising global parameters
+[2024/12/30 23:19:40.481021,  2, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:328(max_open_files)
+  rlimit_max: increasing rlimit_max (1024) to minimum Windows limit (16384)
+[2024/12/30 23:19:40.481045,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:40.481158,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2884(lp_do_section)
+  Processing section "[global]"
+  doing parameter map to guest = Bad User
+  doing parameter workgroup = WORKGROUP
+  doing parameter security = user
+  doing parameter guest account = root
+[2024/12/30 23:19:40.481181,  2, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2901(lp_do_section)
+  Processing section "[open_share]"
+[2024/12/30 23:19:40.481191,  8, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1524(add_a_service)
+  add_a_service: Creating snum = 0 for open_share
+[2024/12/30 23:19:40.481196, 10, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1566(hash_a_service)
+  hash_a_service: creating servicehash
+[2024/12/30 23:19:40.481201, 10, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1574(hash_a_service)
+  hash_a_service: hashing index 0 for service name open_share
+  doing parameter path = /tmp/share
+  doing parameter browseable = yes
+  doing parameter read only = no
+  doing parameter guest ok = yes
+  doing parameter create mask = 0777
+  doing parameter directory mask = 0777
+  doing parameter force user = root
+[2024/12/30 23:19:40.481241,  4, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4024(lp_load_ex)
+  pm_process() returned Yes
+[2024/12/30 23:19:40.481248,  7, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:4359(lp_servicenumber)
+  lp_servicenumber: couldn't find homes
+[2024/12/30 23:19:40.481256,  8, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1524(add_a_service)
+  add_a_service: Creating snum = 1 for IPC$
+[2024/12/30 23:19:40.481261, 10, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1574(hash_a_service)
+  hash_a_service: hashing index 1 for service name IPC$
+[2024/12/30 23:19:40.481267,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:1686(lp_add_ipc)
+  adding IPC service
+[2024/12/30 23:19:40.481275,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+[2024/12/30 23:19:40.481367,  6, pid=67935, effective(0, 0), real(0, 0)] ../../source3/param/loadparm.c:2401(lp_file_list_changed)
+  lp_file_list_changed()
+  file /etc/samba/smb.conf -> /etc/samba/smb.conf  last mod_time: 2024-12-30 23:17:23.639380921
+[2024/12/30 23:19:40.481379,  5, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/debug.c:912(debug_dump_status)
+  INFO: Current debug levels:
+    all: 10
+    tdb: 10
+    printdrivers: 10
+    lanman: 10
+    smb: 10
+    rpc_parse: 10
+    rpc_srv: 10
+    rpc_cli: 10
+    passdb: 10
+    sam: 10
+    auth: 10
+    winbind: 10
+    vfs: 10
+    idmap: 10
+    quota: 10
+    acls: 10
+    locking: 10
+    msdfs: 10
+    dmapi: 10
+    registry: 10
+    scavenger: 10
+    dns: 10
+    ldb: 10
+    tevent: 10
+    auth_audit: 10
+    auth_json_audit: 10
+    kerberos: 10
+    drs_repl: 10
+    smb2: 10
+    smb2_credits: 10
+    dsdb_audit: 10
+    dsdb_json_audit: 10
+    dsdb_password_audit: 10
+    dsdb_password_json_audit: 10
+    dsdb_transaction_audit: 10
+    dsdb_transaction_json_audit: 10
+    dsdb_group_audit: 10
+    dsdb_group_json_audit: 10
+  added interface incusbr0 ip=10.11.12.1 bcast=10.11.12.255 netmask=255.255.255.0
+  added interface eth0 ip=172.25.246.216 bcast=172.25.255.255 netmask=255.255.240.0
+[2024/12/30 23:19:40.481612,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/smbd/server.c:1814(main)
+  loaded services
+[2024/12/30 23:19:40.481634,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/profile/profile_dummy.c:30(set_profile_level)
+  set_profile_level: INFO: Profiling support unavailable in this build.
+[2024/12/30 23:19:40.481644,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/smbd/server.c:1833(main)
+  Standard input is not a socket, assuming -D option
+[2024/12/30 23:19:40.481648,  3, pid=67935, effective(0, 0), real(0, 0)] ../../source3/smbd/server.c:1846(main)
+  Becoming a daemon.
+[2024/12/30 23:19:40.481653,  0, pid=67935, effective(0, 0), real(0, 0)] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: Failed to create session, error code 1
+[2024/12/30 23:31:59.107000,  0] ../../source3/smbd/server.c:1746(main)
+  smbd version 4.20.6 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2024
+[2024/12/30 23:31:59.108000,  0] ../../lib/util/become_daemon.c:119(exit_daemon)
+  exit_daemon: daemon failed to start: close_low_fd(0) failed: %s
+  , error code 2
